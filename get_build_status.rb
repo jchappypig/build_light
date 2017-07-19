@@ -18,13 +18,5 @@ def get_status
  result['state']['result']['name']
 end
 
- puts get_status
-
- if get_status == 'FAILED'
-	puts 'red'
- else
-	puts 'green'
- end
-
 
  
