@@ -7,12 +7,12 @@ def show_status
 	puts Time.now
 
 
-	if status == 'FAILED'
+	if status == 'SUCCESSFUL'
+	 red(:off)
+	 green(:on)
+	else
 	 green(:off)
 	 red(:on)
-	else
-	 green(:on)
-	 red(:off)
 	end
 end
 
