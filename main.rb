@@ -19,5 +19,5 @@ end
 
 while true
 	show_status
-	sleep 5
+	sleep 30
 end
